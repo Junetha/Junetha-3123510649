@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('assets/img/bg-login.jpg');
+            background-size: cover;
+        }
+
+        .login-container {
+            margin-top: 150px;
+            margin-bottom: 150px;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+        }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .form-control {
+            margin-bottom: 20px;
+        }
+
+        .login-btn {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #fff;
+        }
+
+        .login-btn:hover {
+            background-color: #0069d9;
+            border-color: #0062cc;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <div class="login-container">
+                    <h2>Login</h2>
+                    <form action="index.html">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block login-btn">Login</button> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
